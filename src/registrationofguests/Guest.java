@@ -6,7 +6,7 @@ package hotelmanager;
  */
 public class Guest {
 
-	private int id;
+	private Long id;
 	private String name;
 	private String surname;
 	private String identityCardNumber;
@@ -28,7 +28,8 @@ public class Guest {
          * @param identityCardNumber number of identity cartd of guest
          * @param gender gender of guest
          */
-        public Guest(int id, String name, String surname, String identityCardNumber, Gender gender)
+        /*
+        public Guest(Long id, String name, String surname, String identityCardNumber, Gender gender)
         {
             this.id = id;
             this.name = name;
@@ -36,4 +37,5 @@ public class Guest {
             this.identityCardNumber = identityCardNumber;
             this.gender = gender;
         }
+        */
 }

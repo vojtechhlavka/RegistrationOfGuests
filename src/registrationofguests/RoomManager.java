@@ -10,21 +10,21 @@ public interface RoomManager {
 
 	/**
 	 * Creates new Room.
-	 * @param Room given room
+	 * @param room given room
 	 */
-	public void createNewRoom(int Room);
+	public void createNewRoom(Room room);
 
 	/**
 	 * Updates information about given room.
-	 * @param Room given room.
+	 * @param room given room.
 	 */
-	public void updateRoom(int Room);
+	public void updateRoom(Room room);
 
 	/**
 	 * Deletes given room.
-	 * @param Room given room
+	 * @param room given room
 	 */
-	public void deleteRoom(int Room);
+	public void deleteRoom(Room room);
         
         /**
          * Finds and returns all rooms.
@@ -37,5 +37,5 @@ public interface RoomManager {
 	 * @param id given ID
          * @return room with given ID
 	 */
-	public Room getRoomById(int id);
+	public Room getRoomById(Long id);
 }

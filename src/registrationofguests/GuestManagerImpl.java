@@ -4,17 +4,17 @@ import java.util.List;
 
 public class GuestManagerImpl implements GuestManager {
     
-        public void createNewGuest(int Guest)
+        public void createNewGuest(Guest guest)
         {
             ;
         }
         
-	public void updateGuest(int Guest)
+	public void updateGuest(Guest guest)
         {
             ;
         }
         
-	public void deleteGuest(int Guest)
+	public void deleteGuest(Guest guest)
         {
             ;
         }
@@ -24,7 +24,7 @@ public class GuestManagerImpl implements GuestManager {
             return null;
         }
         
-	public Guest getGuestById(int id)
+	public Guest getGuestById(Long id)
         {
             return null;
         }

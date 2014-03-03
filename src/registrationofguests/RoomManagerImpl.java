@@ -4,17 +4,17 @@ import java.util.List;
 
 public class RoomManagerImpl implements RoomManager {
         
-        public void createNewRoom(int Room)
+        public void createNewRoom(Room room)
         {
             ;
         }
 
-	public void updateRoom(int Room)
+	public void updateRoom(Room room)
         {
             ;
         }
         
-	public void deleteRoom(int Room)
+	public void deleteRoom(Room room)
         {
             ;
         }
@@ -24,7 +24,7 @@ public class RoomManagerImpl implements RoomManager {
             return null;
         }
 	
-        public Room getRoomById(int id)
+        public Room getRoomById(Long id)
         {
             return null;
         }

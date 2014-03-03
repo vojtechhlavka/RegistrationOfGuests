@@ -6,7 +6,7 @@ package hotelmanager;
  */
 public class Room {
 
-	private int id;
+	private Long id;
 	private int number;
 	private int capacity;
 	private int floor;
@@ -28,7 +28,8 @@ public class Room {
          * @param floor floor of room
          * @param note note about room
          */
-        public Room(int id, int number, int capacity, int floor, String note)
+        /*
+        public Room(Long id, int number, int capacity, int floor, String note)
         {
             this.id = id;
             this.number = number;
@@ -36,4 +37,5 @@ public class Room {
             this.floor = floor;
             this.note = note;
         }
+        */
 }
