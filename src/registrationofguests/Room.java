@@ -3,6 +3,8 @@ package registrationofguests;
 /**
  * Entita Room
  * @author Petr
+ *
+ * Poznámka: Funguje to!!
  */
 public class Room {
     private int id; //Final?
