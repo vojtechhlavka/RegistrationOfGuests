@@ -1,43 +1,37 @@
-package registrationofguests;
+package hotelmanager;
 
 import java.util.List;
 
 /**
- * Hotel Manager
- * @author Petr
+ * Main manager of hotel
+ * @author Petr Domkar & Vojtech Hlavka
  */
 public interface HotelManager {
-    /**
-     * Take Guest and Room, and add Guest to room
-     * 
-     * @param guest guest of hotel
-     * @param room room of hotel
-     * @return void
-     */
-    void addGuestToRoom(Guest guest, Room room);
-    
-    /**
-     * Take Guest and Room, and remove the guest from his room
-     * 
-     * @param guest guest of hotel
-     * @param room room of hotel
-     * @return void
-     */
-    void removeGuestFromRoom(Guest guest, Room room);
-    
-    /**
-     * Take the room and find all guests from this room
-     * 
-     * @param room room of hotel
-     * @return List<Guest> List of guests from room
-     */
-    List<Guest> getGuestsOfRoom(Room room);
-    
-    /**
-     * Take Guest and find room where guest is accommodated
-     * 
-     * @param guest guest of hotel
-     * @return Room room where is guest accommodated
-     */
-    Room findRoomWithGuest(Guest guest);
+
+	/**
+	 * Accommodates given guest into given room.
+	 * @param Guest given guest
+	 * @param Room give room
+	 */
+	public void accommodateGuestInRoom(int Guest, int Room);
+
+	/**
+	 * Removes given guest from given room.
+	 * @param Guest given guest
+	 * @param Room given room
+	 */
+	public void removeGuestFromRoom(int Guest, int Room);
+
+	/**
+	 * Shows number of room, floor, capacity and guests accomodated in given room.
+	 * @param Room given room
+	 */
+	public void showInformationAboutRoom(int Room);
+        
+        /**
+         * Finds and returns all free rooms in hotel.
+         * @return list of free rooms
+         */
+	public List<Room> findAllFreeRooms();
+
 }

@@ -1,35 +1,27 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package registrationofguests;
+package hotelmanager;
 
 import java.util.List;
 
-/**
- *
- * @author Petr
- */
-public class HotelManagerImpl implements HotelManager{
-    
-    @Override
-    public void addGuestToRoom(Guest guest, Room room) {
-        
-    }
+public class HotelManagerImpl {
 
-    @Override
-    public void removeGuestFromRoom(Guest guest, Room room) {
-        
-    }
+	public void accommodateGuestInRoom(int Guest, int Room)
+        {
+            ;
+	}
 
-    @Override
-    public List<Guest> getGuestsOfRoom(Room room) {
-        return null;
-    }
+	public void removeGuestFromRoom(int Guest, int Room)
+        {
+            ;
+	}
 
-    @Override
-    public Room findRoomWithGuest(Guest guest) {
-        return null;
-    }
-    
+	public void showInformationAboutRoom(int Room)
+        {
+            ;
+	}
+
+	public List<Room> findAllFreeRooms()
+        {
+            return null;
+	}
+
 }
