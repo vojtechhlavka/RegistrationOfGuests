@@ -12,31 +12,30 @@ public interface GuestManager {
 	 * Creates new guest.
 	 * @param Guest given guest
 	 */
-	void createNewGuest(int Guest);
+	public void createNewGuest(int Guest);
 
 	/**
 	 * Updates information about given guest.
 	 * @param Guest given guest
 	 */
-	void updateGuest(int Guest);
+	public void updateGuest(int Guest);
 
 	/**
 	 * Deletes given guest.
 	 * @param Guest given guest
 	 */
-	void deleteGuest(int Guest);
+	public void deleteGuest(int Guest);
         
         /**
          * Finds and returns all guests.
          * @return list of all guests.
          */
-	List<Guest> findAllGuests();
+	public List<Guest> findAllGuests();
 
 	/**
 	 * Returns guets with given ID
 	 * @param id given ID
          * @return guest with given ID
 	 */
-	Guest getGuestById(int id);
-
+	public Guest getGuestById(int id);
 }

@@ -2,7 +2,7 @@ package hotelmanager;
 
 import java.util.List;
 
-public class HotelManagerImpl {
+public class HotelManagerImpl implements HotelManager {
 
 	public void accommodateGuestInRoom(int Guest, int Room)
         {

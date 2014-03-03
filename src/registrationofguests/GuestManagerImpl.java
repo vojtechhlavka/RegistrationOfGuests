@@ -2,29 +2,29 @@ package hotelmanager;
 
 import java.util.List;
 
-public class GuestManagerImpl {
+public class GuestManagerImpl implements GuestManager {
     
-        void createNewGuest(int Guest)
+        public void createNewGuest(int Guest)
         {
             ;
         }
         
-	void updateGuest(int Guest)
+	public void updateGuest(int Guest)
         {
             ;
         }
         
-	void deleteGuest(int Guest)
+	public void deleteGuest(int Guest)
         {
             ;
         }
 
-	List<Guest> findAllGuests()
+	public List<Guest> findAllGuests()
         {
             return null;
         }
         
-	Guest getGuestById(int id)
+	public Guest getGuestById(int id)
         {
             return null;
         }

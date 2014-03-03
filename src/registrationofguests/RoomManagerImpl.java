@@ -2,29 +2,29 @@ package hotelmanager;
 
 import java.util.List;
 
-public class RoomManagerImpl {
+public class RoomManagerImpl implements RoomManager {
         
-        void createNewRoom(int Room)
+        public void createNewRoom(int Room)
         {
             ;
         }
 
-	void updateRoom(int Room)
+	public void updateRoom(int Room)
         {
             ;
         }
         
-	void deleteRoom(int Room)
+	public void deleteRoom(int Room)
         {
             ;
         }
 
-	List<Room> findAllRooms()
+	public List<Room> findAllRooms()
         {
             return null;
         }
 	
-        Room getRoomById(int id)
+        public Room getRoomById(int id)
         {
             return null;
         }

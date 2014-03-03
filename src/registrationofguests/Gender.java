@@ -1,7 +1,7 @@
 package hotelmanager;
 
 /**
- * Enum Gender.
+ * Enum Gender
  * @author Petr Domkar & Vojtech Hlavka
  */
 public enum Gender {
